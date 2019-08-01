@@ -7,7 +7,7 @@ class Unityyamlmerge < Formula
   url "https://github.com/capyvara/unityyamlmerge/releases/download/v#{version}/unityyamlmerge.tar.gz"
 
   def install
-    libexec.install "UnityYAMLMerge", "mergerules.txt", "mergespecfile.txt"
+    libexec.install "UnityYAMLMerge", "mergerules.txt", "mergespecfile.txt", "mergeresolving.txt"
     bin.install "uyaml"
   end
 
