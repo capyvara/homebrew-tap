@@ -1,4 +1,4 @@
-class Installunity < Formula
+class InstallUnity < Formula
   desc "Brew for install-unity"
   homepage "https://github.com/sttz/install-unity"
   version "2.3.0"
